@@ -1,15 +1,36 @@
 *{
     background-color:black;
 }
-.numpad{
+body{
+    display:flex;
     justify-content:center;
-    margin-top:20vh;
-    margin-left: auto;
-    margin-right: auto;
-    
+    align-items:center;
+}
+.display{
+    background-color:white;
+    padding:6vh 0vw;
+    margin-top:8vh;
+}
+.output{
+    font-size: 24px;
+    background-color:white;
+    width:36vw;
+    height:24px;
+    padding:6vh ;
+}
+.numpad{
+    justify-content:center;    
+    margin-top:2vh;
+}
+#clr, #del{
+    padding:4vh 4.9vh;
+}
+#num, #minus, #mult, #div, #plus{
+    padding:4vh 4vh;
+}
+#zero, #equal{
+    padding:4vh 8.8vh;
 }
 .button{
     background-color:white;
-    padding:5vh 5vh;
-
 }
